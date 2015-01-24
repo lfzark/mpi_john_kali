@@ -1,0 +1,148 @@
+./mpirun -n 4 ~/John/john-1.7.3.1-all-2-mpi8/run/john -test
+Benchmarking: Traditional DES [128/128 BS SSE2]... DONE
+Many salts:	8092K c/s real, 8176K c/s virtual
+
+Only one salt:	6972K c/s real, 7044K c/s virtual
+
+Benchmarking: BSDI DES (x725) [128/128 BS SSE2]... DONE
+Many salts:	280064 c/s real, 282282 c/s virtual
+
+Only one salt:	271802 c/s real, 275322 c/s virtual
+
+Benchmarking: FreeBSD MD5 [32/32]... DONE
+Raw:	25028 c/s real, 25303 c/s virtual
+
+
+Benchmarking: OpenBSD Blowfish (x32) [32/32]... DONE
+Raw:	1245 c/s real, 1265 c/s virtual
+
+
+Benchmarking: Kerberos AFS DES [48/64 4K MMX]... DONE
+Short:	1184K c/s real, 1197K c/s virtual
+
+Long:	3818K c/s real, 3871K c/s virtual
+
+Benchmarking: LM DES [128/128 BS SSE2]... DONE
+Raw:	45993K c/s real, 46243K c/s virtual
+
+
+Benchmarking: NT MD4 [128/128 SSE2 + 32/32]... DONE
+Raw:	81282K c/s real, 82090K c/s virtual
+
+
+Benchmarking: Mac OS X 10.4+ salted SHA-1 [32/32]... DONE
+Many salts:	13937K c/s real, 14083K c/s virtual
+
+Only one salt:	11826K c/s real, 11949K c/s virtual
+
+Benchmarking: M$ Cache Hash [Generic 1x]... DONE
+Many salts:	53734K c/s real, 54076K c/s virtual
+
+Only one salt:	21635K c/s real, 21818K c/s virtual
+
+Benchmarking: Apache MD5 [32/32]... DONE
+Raw:	25052 c/s real, 25272 c/s virtual
+
+
+Benchmarking: HMAC MD5 SSE2 [hmac-md5 SSE2]... DONE
+Raw:	14386K c/s real, 14513K c/s virtual
+
+
+Benchmarking: Post.Office MD5 [STD]... DONE
+Many salts:	10819K c/s real, 10939K c/s virtual
+
+Only one salt:	10246K c/s real, 10334K c/s virtual
+
+Benchmarking: Raw MD5 [raw-md5]... DONE
+Raw:	19231K c/s real, 19397K c/s virtual
+
+
+Benchmarking: IPB2 MD5 [Invision Power Board 2.x salted MD5]... DONE
+Many salts:	9526K c/s real, 9778K c/s virtual
+
+Only one salt:	5850K c/s real, 5987K c/s virtual
+
+Benchmarking: Raw SHA-1 SSE2 [raw-sha1 SSE2]... FAILED (get_hash[0](0))
+Benchmarking: Kerberos v5 TGT [krb5 3DES (des3-cbc-sha1)]... DONE
+Raw:	159768 c/s real, 161940 c/s virtual
+
+
+Benchmarking: Netscape LDAP SHA SSE2 [SHA-1]... DONE
+Raw:	31453K c/s real, 32049K c/s virtual
+
+
+Benchmarking: Netscape LDAP SSHA SSE2 [salted SHA-1]... FAILED (get_hash[0](0))
+Benchmarking: Eggdrop [blowfish]... DONE
+Raw:	72347 c/s real, 73006 c/s virtual
+
+
+Benchmarking: Oracle [oracle]... DONE
+Raw:	2577K c/s real, 2612K c/s virtual
+
+
+Benchmarking: MYSQL [mysql]... DONE
+Raw:	10496K c/s real, 10600K c/s virtual
+
+
+Benchmarking: MySQL 4.1 double-SHA-1 SSE2 [mysql-sha1 SSE2]... FAILED (get_hash[0](0))
+Benchmarking: Lotus5 [Lotus v5 Proprietary]... DONE
+Raw:	560029 c/s real, 568956 c/s virtual
+
+
+Benchmarking: More Secure Internet Password [RSA MD defined by BSAFE 1.x - Lotus v6]... DONE
+Many salts:	384143 c/s real, 390169 c/s virtual
+
+Only one salt:	223198 c/s real, 225662 c/s virtual
+
+Benchmarking: LM C/R DES [netlm]... DONE
+Many salts:	1743K c/s real, 1760K c/s virtual
+
+Only one salt:	1706K c/s real, 1725K c/s virtual
+
+Benchmarking: NTLMv1 C/R MD4 DES [netntlm]... DONE
+Many salts:	2540K c/s real, 2565K c/s virtual
+
+Only one salt:	2410K c/s real, 2437K c/s virtual
+
+Benchmarking: LMv2 C/R MD4 HMAC-MD5 [netlmv2]... DONE
+Many salts:	1774K c/s real, 1789K c/s virtual
+
+Only one salt:	1743K c/s real, 1761K c/s virtual
+
+Benchmarking: HalfLM C/R DES [nethalflm]... DONE
+Many salts:	4383K c/s real, 4418K c/s virtual
+
+Only one salt:	4205K c/s real, 4247K c/s virtual
+
+Benchmarking: MS-SQL SSE2 [ms-sql SSE2]... FAILED (get_hash[0](0))
+Benchmarking: MS-SQL05 SSE2 [ms-sql05 SSE2]... FAILED (get_hash[0](0))
+Benchmarking: EPiServer SID Hashes [SHA-1]... DONE
+Many salts:	14059K c/s real, 14206K c/s virtual
+
+Only one salt:	13083K c/s real, 13164K c/s virtual
+
+Benchmarking: PHPS MD5 [MD5(MD5($pass).$salt)]... DONE
+Many salts:	16548K c/s real, 16690K c/s virtual
+
+Only one salt:	7985K c/s real, 8071K c/s virtual
+
+Benchmarking: MYSQL_fast [mysql-fast]... DONE
+Raw:	85039K c/s real, 85623K c/s virtual
+
+
+Benchmarking: PIX MD5 SSE2 [pix-md5 SSE2]... DONE
+Raw:	38079K c/s real, 38503K c/s virtual
+
+
+Benchmarking: SAP CODVN G (PASSCODE) [sapg]... DONE
+Many salts:	4419K c/s real, 4478K c/s virtual
+
+Only one salt:	4170K c/s real, 4204K c/s virtual
+
+Benchmarking: SAP BCODE [sapb]... DONE
+Many salts:	5612K c/s real, 5669K c/s virtual
+
+Only one salt:	4820K c/s real, 4868K c/s virtual
+
+Benchmarking: Netscreen MD5 [NS MD5]... DONE
+Raw:	14460K c/s real, 14551K c/s virtual
